@@ -37,6 +37,11 @@ Keep tests simple with a simple framework or library is best. BDD style framewor
 ### Cost of skipping TDD
 - TDD reduces bug density aprox 40-80%, depending on the project.
 - Software built without TDD takes longer, costs more, and has more bugs.
+## Types of tests
+
+### Unit
+### Functional
+### Integration
 
 ## Sources
 - [TDD the RITE Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
