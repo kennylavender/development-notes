@@ -1,18 +1,40 @@
 # TDD
-Test Driven development highlights from Eric Elliots [medium articles](#sources]
+Test Driven development highlights from Eric Elliot's [medium articles](#sources]
 
 ## Process
- Red, Green Refactor
 
-## Test Format ( R.I.T.E )
+### Red, Green Refactor
+- Start with a falsifiable stated requirement, e.g., double() should take a number x and return the product of x and 2.
+- Write a test to prove that the stated requirement is satisfied.
+- Watch the test fail. This proves that the test won’t produce a false positive, and that the added code is what makes the test pass.
+- Add the implementation code.
+- Watch the test pass.
+- Look over the code and improve it, if necessary, relying on the test to prove that the improved code continues to work as expected.
+
+## Test Format
+### 5 Questions Every Unit Test Must Answer
+A failing test should read like a good bug report. That means that answers to the following questions should be obvious at a glance:
+
+- What component is being tested?
+- What behavior of the component is being tested (test setup / givens)?
+- What are the actual results?
+- What are the expected results?
+- How can actual results be reproduced?
+
+### Test setup/teardown.
+Do not use functions frameworks functions like beforeTest, afterTest, as they encourage side effects. Instead use factory, and setup function inside of each test that create new data and instances so that their are no side effects that happen between tests.
+
+### Test Clarity ( R.I.T.E )
 - **R**eadable
-- **I** Isolated
-- **T** Thorough
-- **E** Explicit
+- **I**solated or **I**ntegrated
+- **T**horough
+- **E**xplicit
  
-## Test libraries and frameworks
+### Test libraries and frameworks
+Keep tests simple with a simple framework or library is best. BDD style frameworks add complexity.
 
-## Cost of skipping TDD
+## Why TDD
+### Cost of skipping TDD
 - TDD reduces bug density aprox 40-80%, depending on the project.
 - Software built without TDD takes longer, costs more, and has more bugs.
 
