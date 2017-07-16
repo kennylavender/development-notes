@@ -34,14 +34,29 @@ Do not use functions frameworks functions like beforeTest, afterTest, as they en
 Keep tests simple with a simple framework or library or use simple vanilla js. BDD style frameworks add complexity.
 
 ## Why TDD
+
 ### Cost of skipping TDD
 - TDD reduces bug density aprox 40-80%, depending on the project.
 - Software built without TDD takes longer, costs more, and has more bugs.
+
+### Ways they help
+- Design aid, gives clearer perspective on the ideal api design.
+- Feature documentation
+- 
+- **Quality assurance:** 
+- **Continuous Delivery Aid:**
+
 ## Types of tests
 
 ### Unit
+Ensure that individual components of the app work as expected. Assertions test the component API. Realtime feedback while developing.
+
 ### Functional
+Ensure that the app works as expected from the user’s perspective. Assertions primarily test the user interface.
+
 ### Integration
+Ensure that component collaborations work as expected. Assertions may test component API, UI, or side-effects (such as database I/O, logging, etc…)
+
 
 ## Sources
 - [TDD the RITE Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
