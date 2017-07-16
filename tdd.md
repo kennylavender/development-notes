@@ -31,7 +31,7 @@ Do not use functions frameworks functions like beforeTest, afterTest, as they en
 - **E**xplicit
  
 ### Test libraries and frameworks
-Keep tests simple with a simple framework or library is best. BDD style frameworks add complexity.
+Keep tests simple with a simple framework or library or use simple vanilla js. BDD style frameworks add complexity.
 
 ## Why TDD
 ### Cost of skipping TDD
