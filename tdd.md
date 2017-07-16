@@ -1,5 +1,5 @@
 # TDD
-Test Driven development highlights from Eric Elliot's [medium articles](#sources)
+Test Driven Development highlights from Eric Elliot's [medium articles](#sources)
 
 ## Process
 
