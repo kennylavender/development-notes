@@ -1,6 +1,6 @@
 # Class vs Prototypal Inheritance
 
-OOP Inheritance highlights from Eric Elliot's medium articles
+OOP Inheritance highlights from Eric Elliot's [medium articles](#sources)
 
 ## Class Inheritance
 A class is like a blueprint — a description of the object to be created. Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
