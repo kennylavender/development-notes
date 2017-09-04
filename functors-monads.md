@@ -55,8 +55,7 @@ __Notes__: functions under composition might have a special name, I just don't k
 - Combine Rule: compose
 - Special Member: identity function, `const id = x => x`
 
-## Functor
-types that map, must be 
+
 
 ## Semi Group
 A type thats has a concat method, concat must be associative. Because Semi groups combine and are associative they can be a monoid, but not all of them are because not all of them allow/follow the special member rule.
@@ -64,7 +63,19 @@ A type thats has a concat method, concat must be associative. Because Semi group
 #### Examples of Semi Groups
 __strings__
 
+## Functor
+types that map, must be 
+// fmap Functor f ~> (a => b) => f(a) => f(b)
+___preserves structure___
+Array(Number) => Array(Object) // OK
+Array(Number) => Observable(Object) // Not ok
+
+Functor = maps from A -> B
+Endofunctor = maps from A -> A
+
 ## Monads
+What is a Monad?
+A chainable functor. (Map + computation)
 
 ## .fold
 think of fold as a removal of a value from a type. fold may take a differnt argument depending on the type.
