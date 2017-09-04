@@ -29,7 +29,7 @@ The rule for combining those things must follow 2 meta rules:
 - associativity rule
 - special member rule
 
-It does not have to satisfy communativity, but sometimes monoids do.
+It does not have to satisfy commutativity, but sometimes monoids do.
 
 #### Examples of monoids
 __strings__
