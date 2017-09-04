@@ -47,7 +47,7 @@ __Notes__: functions under composition might have a special name, I just don't k
 
 - Thing: function
 - Combine: compose
-- Special Member: identity function, x => x
+- Special Member: identity function, `const id = x => x`
 
 ## Functor
 types that map, must be 
