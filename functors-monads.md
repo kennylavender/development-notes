@@ -16,7 +16,7 @@ Combining in any order the result should be the same.
 __Note:__ This might have an actual name, I don't know yet, so calling it special member for now.
 
 sm = is a placeholder for the special member, special member can be any thing of the collection of things.
-x combined with sm equals x, combine could any form of combination
+`x combined with sm equals x`, combine could any form of combination
 
 `x + sm = x`
 
