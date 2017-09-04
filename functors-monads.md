@@ -46,7 +46,7 @@ __numbers__
 __Notes__: functions under composition might have a special name, I just don't know it.
 
 - Thing: function
-- Combine: compose
+- Combine Rule: compose
 - Special Member: identity function, `const id = x => x`
 
 ## Functor
