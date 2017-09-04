@@ -14,6 +14,7 @@ Combining in any order the result is the same.
 
 ## Special Member Rule
 __Note:__ This might have an actual name, I don't know yet, so calling it special member for now.
+Might also be called a neutral identity.
 
 sm = is a placeholder for the special member, special member can be any thing of the collection of things.
 `x combined with sm equals x`, combine could any form of combination
