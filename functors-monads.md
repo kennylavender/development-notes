@@ -6,7 +6,7 @@ Group combinations in any way, as long as the order of combinations is the same,
 `x + ( y + z ) === ( x + y ) + z`
 
 ## Commutativity Rule
-Combining in any order the result should be the same.
+Combining in any order the result is the same.
 
 `y + z === z + y`
 
