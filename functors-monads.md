@@ -65,3 +65,6 @@ A type thats has a concat method, concat must be associative. Because Semi group
 __strings__
 
 ## Monads
+
+## .fold
+think of fold as a removal of a value from a type.
