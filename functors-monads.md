@@ -13,6 +13,8 @@ Combining in any order the result should be the same.
 `y * z === z * y`
 
 ## Special Member Rule
+__Note:__ This might have an actual name, I don't know yet, so calling it special member for now.
+
 sm = is a placeholder for the special member, special member can be any thing of the collection of things.
 x combined with sm equals x, combine could any form of combination
 
@@ -41,6 +43,8 @@ __numbers__
 - Special Member: 0
 
 ## Functions under composition are a monoid
+__Notes__: functions under composition might have a special name, I just don't know it.
+
 - Thing: function
 - Combine: Composition
 - Special Member: identity function, x => x
