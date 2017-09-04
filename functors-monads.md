@@ -39,7 +39,12 @@ __strings__
 
 __numbers__
 - Thing: Numbers
-- Combine Rule: add, multiply
+- Combine Rule: add
+- Special Member: 0
+
+__numbers__
+- Thing: Numbers
+- Combine Rule: multiply
 - Special Member: 0
 
 ## Functions under composition are a monoid
