@@ -1,11 +1,12 @@
 # Functors, Monads, Monoids
 
 ## Associativity
-x + ( y + z ) === ( x + y ) + z
+`x + ( y + z ) === ( x + y ) + z`
 
 ## Commutativity
-y + z === z + y
-y * z === z * y
+`y + z === z + y`
+
+`y * z === z * y`
 
 ## Monoid
 Is a collection of things and a rule for combining those things.
