@@ -24,12 +24,12 @@ sm = is a placeholder for the special member, special member can be any thing of
 
 ## Monoid
 Is a collection of things and a rule for combining those things.
-The rule for combining those things must follow 2 meta rules: associativity and special member.
+The rule for combining those things must follow 2 meta rules: 
 
-A monoid must contain a special member that when x combined witht the special member always equals x.
-x + sm = x;
+- associativity rule
+- special member rule
 
-It does not have to satisfy communativity.
+It does not have to satisfy communativity, but sometimes monoids do.
 
 #### Examples of monoids
 __strings__
