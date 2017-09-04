@@ -67,4 +67,4 @@ __strings__
 ## Monads
 
 ## .fold
-think of fold as a removal of a value from a type.
+think of fold as a removal of a value from a type. fold may take a differnt argument depending on the type.
