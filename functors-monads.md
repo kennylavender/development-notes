@@ -64,6 +64,21 @@ A type thats has a concat method, concat must be associative. Because Semi group
 __strings__
 
 ## Functor
+A type that implements map. The map method must follow the idenity rule and composition rule
+
+__identity rule__
+```javascript
+ const id = x => x;
+ F.map(id) === F;
+```
+__composition rule__
+```javascript
+const g = x => x + 1;
+const f = x => x * 2;
+F.map(g).map(f) === F.map(compose(f, g))
+```
+
+
 types that map, must be 
 // fmap Functor f ~> (a => b) => f(a) => f(b)
 ___preserves structure___
