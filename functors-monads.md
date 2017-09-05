@@ -62,7 +62,7 @@ A type that implements a concat method. The concat method must be associative. B
 
 
 ## Functor
-A type that implements map. The map method must follow the identity rule composition rules.
+A type that implements map. The map method has 2 laws. identity and function composition law.
 
 __identity rule__ ( special member for functions )
 ```javascript
@@ -90,9 +90,17 @@ Functors are allowed to map its value(s) from A -> A or A -> B
 
 Endofunctor = maps from A -> A
 
-## Monads
+## Monad
 What is a Monad?
+A monad implements .of and .chain
+of and chain
 A chainable functor. (Map + computation)
+
+## .chain
+also know as flatmap, bind, >>=
 
 ## .fold
 think of fold as a removal of a value from a type. fold may take a differnt argument depending on the type.
+
+## .of
+lifts a value into a type. avoids constructor complexities and allows you to place a value directly into a type.
