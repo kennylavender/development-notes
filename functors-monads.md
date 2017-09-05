@@ -72,7 +72,29 @@ Array(Number) => Observable(Object) // Not ok
 
 Functor = maps from A -> B
 Endofunctor = maps from A -> A
+```javascript
+// Functor laws
+// id = x => x;
+const id = x => x;
+{
+  const X = [20];
+  const a = X.map(id);
+  const b = X;
+  console.log(a[0], b[0]);
+}
 
+// Compositionu law
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v) ,x);
+
+const g = x => x + 1;
+const f = x => x * 2;
+{
+  const X = [20];
+  const a = X.map(g).map(f);
+  const b = X.map(compose(f, g));
+  console.log(a[0], b[0]);
+}
+```
 ## Monads
 What is a Monad?
 A chainable functor. (Map + computation)
