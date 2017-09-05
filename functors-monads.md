@@ -60,18 +60,16 @@ __Notes__: functions under composition might have a special name, I just don't k
 ## Semi Group
 A type that implements a concat method. The concat method must be associative. Because Semi groups combine and are associative they can be a monoid, but not all of them are because not all of them allow/follow the special member rule.
 
-#### Examples of Semi Groups
-__strings__
 
 ## Functor
-A type that implements map. The map method must follow the idenity rule and composition rule
+A type that implements map. The map method must follow the identity rule composition rules.
 
-__identity rule__
+__identity rule__ ( special member for functions )
 ```javascript
  const id = x => x;
  F.map(id) === F;
 ```
-__composition rule__
+__composition rule__ ( combine rule for functions )
 ```javascript
 const g = x => x + 1;
 const f = x => x * 2;
