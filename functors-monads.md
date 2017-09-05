@@ -58,7 +58,7 @@ __Notes__: functions under composition might have a special name, I just don't k
 
 
 ## Semi Group
-A type thats has a concat method, concat must be associative. Because Semi groups combine and are associative they can be a monoid, but not all of them are because not all of them allow/follow the special member rule.
+A type that implements a concat method. The concat method must be associative. Because Semi groups combine and are associative they can be a monoid, but not all of them are because not all of them allow/follow the special member rule.
 
 #### Examples of Semi Groups
 __strings__
