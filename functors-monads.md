@@ -75,13 +75,19 @@ const g = x => x + 1;
 const f = x => x * 2;
 F.map(g).map(f) === F.map(compose(f, g))
 ```
-
-
-types that map, must be 
-// fmap Functor f ~> (a => b) => f(a) => f(b)
-___preserves structure___
+The map method must preserve structure, meaning returns the same type.
+```javascript
 Array(Number) => Array(Object) // OK
 Array(Number) => Observable(Object) // Not ok
+```
+
+The map/fmap signature
+```
+// fmap Functor f ~> (a => b) => f(a) => f(b)
+```
+
+Functors are allowed to map its value(s) from A -> A or A -> B
+
 
 Functor = maps from A -> B
 Endofunctor = maps from A -> A
