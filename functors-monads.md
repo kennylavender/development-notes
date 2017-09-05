@@ -75,7 +75,7 @@ const g = x => x + 1;
 const f = x => x * 2;
 F.map(g).map(f) === F.map(compose(f, g))
 ```
-The map method must preserve structure, meaning returns the same type.
+The map method must preserve structure, meaning returns the same type of functor.
 ```javascript
 Array(Number) => Array(Object) // OK
 Array(Number) => Observable(Object) // Not ok
