@@ -49,7 +49,7 @@ __numbers__
 - Special Member: 0
 
 ## Functions under composition are a monoid
-__Notes__: functions under composition might have a special name, I just don't know it.
+__Notes__: functions under composition might have a special name, I just don't know it. function composition?
 
 - Thing: function
 - Combine Rule: compose
