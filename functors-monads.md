@@ -64,6 +64,7 @@ A type that implements a concat method. The concat method must be associative. B
 ## Functor
 A type that implements map. The map method has 2 laws. identity and function composition law.
 
+## .map
 __identity rule__ ( special member for functions )
 ```javascript
  const id = x => x;
