@@ -62,9 +62,17 @@ A type that implements a concat method. The concat method must be associative. B
 
 
 ## Functor
-A type that implements map. The map method has 2 laws. identity and function composition law.
+A type that implements map. 
+
+## Monad
+What is a Monad?
+A monad implements .of and .chain
+of and chain
+A chainable functor. (Map + computation)
 
 ## .map
+The map method has 2 laws. identity and function composition law.
+
 __identity rule__ ( special member for functions )
 ```javascript
  const id = x => x;
@@ -91,11 +99,6 @@ Functors are allowed to map its value(s) from A -> A or A -> B
 
 Endofunctor = maps from A -> A
 
-## Monad
-What is a Monad?
-A monad implements .of and .chain
-of and chain
-A chainable functor. (Map + computation)
 
 ## .chain
 also know as flatmap, bind, >>=
