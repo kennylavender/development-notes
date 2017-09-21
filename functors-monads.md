@@ -112,6 +112,7 @@ The map/fmap signature
 ```
 M(a) => a
 ```
+AKA: join
 
 ## .chain
 Flatten and map
@@ -132,3 +133,9 @@ a => F(a)
 ```
 
 AKA: lift
+
+## Sources
+[Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8)
+[Brian Lansdorf Egghead videos](https://egghead.io/instructors/brian-lonsdorf)
+[Mostly Adequate Guide](https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details)
+
