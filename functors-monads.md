@@ -135,7 +135,9 @@ a => F(a)
 AKA: lift
 
 ## Sources
-[Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8)
-[Brian Lansdorf Egghead videos](https://egghead.io/instructors/brian-lonsdorf)
-[Mostly Adequate Guide](https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details)
+- [Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8)
+- [Functors and Categories](https://medium.com/javascript-scene/functors-categories-61e031bac53f)
+- [Brian Lansdorf Egghead videos](https://egghead.io/instructors/brian-lonsdorf)
+- [Mostly Adequate Guide](https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details)
+- [Brian Beckman Monads](https://www.youtube.com/watch?v=ZhuHCtR3xq8&t=1035s)
 
