@@ -75,7 +75,13 @@ A monad implements .of and .chain
 of and chain
 A chainable functor. (Map + computation)
 
-## .map
+#### Monad Laws
+- Left identity: unit(x).chain(f) ==== f(x)
+- Right identity: m.chain(unit) ==== m
+- Associativity: m.chain(f).chain(g) ==== m.chain(x => f(x).chain(g)
+
+## Methods
+### .map
 
 ```
 F(a) => F(b)
@@ -108,24 +114,24 @@ The map/fmap signature
 ```
 
 
-## .flatten
+### .flatten
 ```
 M(a) => a
 ```
 AKA: join
 
-## .chain
+### .chain
 Flatten and map
 ```
 M(M(a)) => M(b)
 ```
 AKA: flatmap, bind, >>==, shove
 
-## .fold
+### .fold
 Think of fold as a removal of a value from a type. fold may take a differnt argument depending on the type.
 .chain and and flatten are types of folders I think?
 
-## .of
+### .of
 Lifts a value into a type. avoids constructor complexities and allows you to place a value directly into a type.
 ```
 a => M(a)
