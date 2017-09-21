@@ -99,12 +99,27 @@ Functors are allowed to map its value(s) from A -> A or A -> B
 
 Endofunctor = maps from A -> A
 
+## .flatten
+```
+M(a) => a
+```
 
 ## .chain
-also know as flatmap, bind, >>=
+Flatten and map
+```
+M(M(a)) => M(b)
+```
+AKA: flatmap, bind, >>==, shove
 
 ## .fold
-think of fold as a removal of a value from a type. fold may take a differnt argument depending on the type.
+Think of fold as a removal of a value from a type. fold may take a differnt argument depending on the type.
+.chain and and flatten are types of folders I think?
 
 ## .of
-lifts a value into a type. avoids constructor complexities and allows you to place a value directly into a type.
+Lifts a value into a type. avoids constructor complexities and allows you to place a value directly into a type.
+```
+a => M(a)
+a => F(a)
+```
+
+AKA: lift
