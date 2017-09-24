@@ -75,6 +75,8 @@ A monad implements .of and .chain
 of and chain
 A chainable functor. (Map + computation)
 
+A monad is a way of composing functions that require context in addition to the return value, such as computation, branching, or I/O.
+
 #### Monad Laws
 - Left identity: unit(x).chain(f) ==== f(x)
 - Right identity: m.chain(unit) ==== m
