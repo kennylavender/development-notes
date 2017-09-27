@@ -118,7 +118,7 @@ The map/fmap signature
 
 ### .flatten
 ```
-M(a) => a
+M(M(a)) => M(a)
 ```
 AKA: join
 
@@ -140,7 +140,7 @@ a => M(a)
 a => F(a)
 ```
 
-AKA: lift
+AKA: lift ( Type lift )
 
 ## Sources
 - [Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8) - Eric Elliot 
