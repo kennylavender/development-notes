@@ -143,6 +143,22 @@ a => F(a)
 
 AKA: lift ( Type lift )
 
+## Insights
+
+### Composition
+
+> Composition is the way to control and build complexity in apps.
+
+From Erics article: 
+
+> the essence of software development is composition
+
+- functions map: `a => b` and let you compose functions of type `a => b`
+
+- functors map with context: `Functor(a) => Functor(b)`, which lets you compose functions `F(a) => F(b)`
+
+- Flattent and map with context: `Monad(Monad(a)) => Monad(b)`, which lets you compose lifting functions `a => F(b)`
+
 ## Sources
 - [Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8) - Eric Elliot 
 - [Functors and Categories](https://medium.com/javascript-scene/functors-categories-61e031bac53f) - Eric Elliot
