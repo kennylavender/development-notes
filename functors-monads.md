@@ -157,7 +157,11 @@ From Erics article:
 
 - functors map with context: `Functor(a) => Functor(b)`, which lets you compose functions `F(a) => F(b)`
 
-- Flattent and map with context: `Monad(Monad(a)) => Monad(b)`, which lets you compose lifting functions `a => F(b)`
+- Flatten and map with context: `Monad(Monad(a)) => Monad(b)`, which lets you compose lifting functions `a => F(b)`
+
+> Function composition creates function pipelines that your data flows through. You put some input in the first stage of the pipeline, and some data pops out of the last stage of the pipeline, transformed. But for that to work, each stage of the pipeline must be expecting the data type that the previous stage returns.
+
+I was fighting this for a while in react with HOC's I felt like each HOC had to get its data from the store and handle getting all its own props. No you can use HOC's to add props, and HOC's to use props from other HOC's and HOC's that only modify props or check for props etc, just make the pipeline instead of making each HOC responsible for everything.
 
 ## Sources
 - [Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8) - Eric Elliot 
