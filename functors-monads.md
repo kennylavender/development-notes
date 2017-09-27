@@ -119,6 +119,7 @@ The map/fmap signature
 ### .flatten
 ```
 M(M(a)) => M(a)
+M(a) => a
 ```
 AKA: join
 
