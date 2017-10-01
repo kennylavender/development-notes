@@ -48,7 +48,7 @@ __numbers__
 - Combine Rule: multiply
 - Special Member: 0
 
-## Functions under composition are a monoid
+### Functions under composition are a monoid
 
 - Thing: function
 - Combine Rule: compose
