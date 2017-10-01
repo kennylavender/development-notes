@@ -73,6 +73,39 @@ Functors are allowed to map its value(s) from A -> A or A -> B
 ## Endofunctor
 Endofunctors only map from A -> A
 
+## Category.
+* A collection of objects and arrows (morphisms) between objects
+* Identity: for every X in C', X -> X
+* Composition: for every A --f --> B -- g --> C in C', h: A -- h --> C
+
+## Morphism
+* A collection of objects and arrows (morphisms) between objects
+* Identity: for every X in C', X -> X
+* Composition: for every A --f --> B -- g --> C in C', h: A -- h --> C
+
+### Kleisli Category
+* An object is a category
+* A morphism is a functor
+
+## Mapping
+* For some input X, there exists some corresponding output Y
+
+## Structure
+WTF is structure?
+* The available compositions in the catogry
+* Compositions are the combined morphisms, e.g., g: A -> B, f: B -> C, h: A -> C
+
+const double = n => n * 2;
+
+// theoretically, the same
+const doubleS = {
+  [1]: 2,
+  [2]: 4,
+  [3]: 6,
+  [4]: 8
+  // ...
+}
+
 ## Monad
 What is a Monad?
 A monad implements .of and .chain
