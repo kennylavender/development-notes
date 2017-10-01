@@ -79,9 +79,12 @@ Endofunctors only map from A -> A
 * Composition: for every A --f --> B -- g --> C in C', h: A -- h --> C
 
 ## Morphism
-* A collection of objects and arrows (morphisms) between objects
-* Identity: for every X in C', X -> X
-* Composition: for every A --f --> B -- g --> C in C', h: A -- h --> C
+* Roughly, a mapping and/or function thing.
+
+In the category of types and functions: A -> B
+
+* An object is a type
+* A morphism is a function
 
 ### Kleisli Category
 * An object is a category
