@@ -66,6 +66,10 @@ A type that implements map.
 
 Functors are allowed to map its value(s) from A -> A or A -> B
 
+- A mapping between categories which preserves structure
+- Functors map WITH CONTEXT
+- Ability to map from F(a) -> F(b) where F() reperesents the functor context (available morphisms/compositions)
+
 ## Endofunctor
 Endofunctors only map from A -> A
 
