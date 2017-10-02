@@ -62,11 +62,15 @@ A type that implements a concat method. The concat method must be associative. B
 ## Functor
 A type that implements map.
 
-Functors are allowed to map its value(s) from A -> A or A -> B
-
 - A mapping between categories which preserves structure
 - Functors map WITH CONTEXT
 - Ability to map from F(a) -> F(b) where F() reperesents the functor context (available morphisms/compositions)
+
+#### Functor Laws
+- Identity
+- Composition
+Since a functor is a mapping between categories, functors must respect identity and composition. Together, they’re known as the functor laws.
+
 
 ## Endofunctor
 Endofunctors only map from A -> A
