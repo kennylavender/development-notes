@@ -12,7 +12,7 @@ Combining in any order the result is the same.
 
 `y * z === z * y`
 
-## Special Member Rule
+## Special Member Rule - unit
 __Note:__ This might have an actual name, I don't know yet, so calling it special member for now.
 Might also be called a neutral identity.
 
@@ -36,17 +36,20 @@ It does not have to satisfy commutativity, but sometimes monoids do.
 __strings__
 - Thing: Strings
 - Combine Rule: concat
-- Special Member: emtpy string
+- unit: emtpy string
+- empty: ?
 
 __numbers__
 - Thing: Numbers
 - Combine Rule: add
-- Special Member: 0
+- unit: 0
+- empty: ?
 
 __numbers__
 - Thing: Numbers
 - Combine Rule: multiply
-- Special Member: 0
+- unit: 0
+- empty: 0
 
 ### Functions under composition are a monoid
 
