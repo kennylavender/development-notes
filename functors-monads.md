@@ -206,8 +206,6 @@ From Erics article:
 
 > Function composition creates function pipelines that your data flows through. You put some input in the first stage of the pipeline, and some data pops out of the last stage of the pipeline, transformed. But for that to work, each stage of the pipeline must be expecting the data type that the previous stage returns.
 
-I was fighting this for a while in react with HOC's. I thought it was stupid for a HOC to just expect that correct props would be provided to it. I felt like each HOC had to get its data from the store and handle getting all its own props. No, I was wrong, and thinking in terms of composition even with HOCs has been so much sense. You can use HOC's to add props from the state,HOC's to use props, HOCs to add functionality based on props, that only modify props or check for props etc, just make the pipeline instead of making each HOC responsible for everything. It makes the HOC's much simpler and composible.
-
 ## Sources
 - [Monads made simple](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8) - Eric Elliot 
 - [Functors and Categories](https://medium.com/javascript-scene/functors-categories-61e031bac53f) - Eric Elliot
