@@ -40,18 +40,18 @@ __strings__
 - Thing: Strings
 - Combine Rule: concat
 - unit: emtpy string
-- empty: ?
+- empty: ""
 
 __numbers__
 - Thing: Numbers
 - Combine Rule: add
 - unit: 0
-- empty: ?
+- empty: 0
 
 __numbers__
 - Thing: Numbers
 - Combine Rule: multiply
-- unit: 0
+- unit: 1
 - empty: 0
 
 ### Functions under composition are a monoid
