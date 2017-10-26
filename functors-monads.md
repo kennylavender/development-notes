@@ -39,7 +39,7 @@ It does not have to satisfy commutativity, but sometimes monoids do.
 __strings__
 - Thing: Strings
 - Combine Rule: concat
-- unit: emtpy string
+- unit: ""
 - empty: ""
 
 __numbers__
@@ -53,6 +53,12 @@ __numbers__
 - Combine Rule: multiply
 - unit: 1
 - empty: 0
+
+__12 hour clock__
+- Thing: Hours
+- Combine Rule: addition
+- unit: 0
+- empty: 12
 
 ### Functions under composition are a monoid
 
