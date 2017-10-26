@@ -56,7 +56,7 @@ __numbers__
 
 __12 hour clock__
 - Thing: Hours
-- Combine Rule: addition
+- Combine Rule: (x + y) % 12
 - unit: 0
 - empty: 12
 
