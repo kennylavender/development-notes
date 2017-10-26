@@ -23,6 +23,9 @@ sm = is a placeholder for the special member, special member can be any thing of
 
 `x * sm = x`
 
+## Semi Group
+A type that implements a concat method. The concat method must be associative. Because Semi groups combine and are associative they can be a monoid, but not all of them are because not all of them allow/follow the special member rule.
+
 ## Monoid
 Is a collection of things and a rule for combining those things.
 The rule for combining those things must follow 2 meta rules: 
@@ -58,8 +61,6 @@ __numbers__
 - Special Member: identity function, `const id = x => x`
 
 
-## Semi Group
-A type that implements a concat method. The concat method must be associative. Because Semi groups combine and are associative they can be a monoid, but not all of them are because not all of them allow/follow the special member rule.
 
 
 ## Functor
