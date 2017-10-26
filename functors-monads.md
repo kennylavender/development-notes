@@ -55,7 +55,7 @@ __numbers__
 - empty: 0
 
 __12 hour clock__
-- Thing: Hours
+- Thing: Clock Numbers, 1 - 12
 - Combine Rule: (x + y) % 12
 - unit: 0
 - empty: 12
