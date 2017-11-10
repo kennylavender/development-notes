@@ -1,3 +1,12 @@
+# Transducers
+
+## Why Transducers
+
+- There composable
+- evaluate 1 object at a time.
+
+```javascript
+
 const result = [1,2,3,4,5]
 .filter(x => x % 2)
 .map(x => x * 2)
@@ -25,3 +34,4 @@ const sum = (acc, v) => acc + v;
 const r1 = [1,2,3,4,5,].reduce(doubleEvens(sum), 0);
 
 console.log(r1);
+```
