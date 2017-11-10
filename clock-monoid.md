@@ -1,3 +1,7 @@
+# Stuff
+
+By no means complete, just saving notes temporarily.
+
 ```javascript
 // build clock monoid
 // clock(v) => {}
