@@ -1,2 +1,3 @@
-# development-notes
-Learning development notes mostly from Eric Elliots medium articles.
+# Development Notes
+
+Development from Eric Elliots medium articles and other sources.
