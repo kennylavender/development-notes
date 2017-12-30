@@ -24,7 +24,7 @@ A failing test should read like a good bug report. That means that answers to th
 ### Test setup/teardown.
 For unit tests, do not use functions frameworks functions like beforeTest, afterTest, as they encourage side effects. Instead use factory, and setup function inside of each test that create new data and instances so that their are no side effects that happen between tests.
 
-beforeTest and afterTest functions should only be used for functional/integration tests.
+beforeTest and afterTest functions should only be used for functional/integration tests as needed.
 
 ### Test Clarity ( R.I.T.E )
 - **R**eadable
