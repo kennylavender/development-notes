@@ -15,8 +15,8 @@ Test Driven Development highlights from Eric Elliot's [medium articles](#sources
 ### 5 Questions Every Unit Test Must Answer
 A failing test should read like a good bug report. That means that answers to the following questions should be obvious at a glance:
 
-- What component is being tested?
-- What behavior of the component is being tested (test setup / givens)?
+- What component/unit/function/thing is being tested? ( describe )
+- What behavior of the component is being tested? (test setup / givens) ( should )
 - What are the actual results?
 - What are the expected results?
 - How can actual results be reproduced?
@@ -29,8 +29,8 @@ beforeTest and afterTest functions should only be used for functional/integratio
 ### Test Clarity ( R.I.T.E )
 - **R**eadable
 - **I**solated or **I**ntegrated
-- **T**horough
-- **E**xplicit
+- **T**horough - Cover edge cases, edges of the domain ( initial value, empty, very large, very small, one value from each edge ).
+- **E**xplicit - Should be able to uderstand everything you need to know about the test, without looking at anything but the test. Avoid Magic.
  
 ### Test libraries and frameworks
 Keep tests simple with a simple framework or library or use simple vanilla js. BDD style frameworks add complexity.
@@ -40,6 +40,8 @@ Keep tests simple with a simple framework or library or use simple vanilla js. B
 ### Cost of skipping TDD
 - TDD reduces bug density aprox 40-80%, depending on the project.
 - Software built without TDD takes longer, costs more, and has more bugs.
+- How much more expensive is it to fix a bug in production vs TDD time? 15x, 100x more than design time.
+- You save about 30%+ of total cost of development + maintenance.
 
 ### Ways they help
 - Design aid, gives clearer perspective on the ideal api design.
