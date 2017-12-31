@@ -62,6 +62,11 @@ Creating instances from a 'master' object. If the master is updated all instance
 - Ivan Sutherlands Sketchpad ( 1962 )
 - Photoshop smart objects
 
+#### When to use
+
+- To conserve memory.  
+- Dynamically update many instances. Dynamic Delegation
+
 #### Considerations
 
 - Trading memory for computation to lookup delegates.
