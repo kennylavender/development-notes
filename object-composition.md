@@ -33,11 +33,13 @@ Forming an object by adding new properties to an existing object.
 
 When an object forwards or delegates to another object.
 
-### Examples
+#### Examples
 
-- JavaScript Array and Object instance delegate to Array.prototype and Object.prototype
+JavaScript Array and Object instance delegate to Array.prototype and Object.prototype
 
-#### Dynamic Delgation
+##### Dynamic Delgation Examples
+
+Creating instances from a 'master' object. If the master is updated all instances update at runtime.
 
 - Ivan Sutherlands Sketchpad ( 1962 )
 - Photoshop smart objects
