@@ -6,5 +6,14 @@ Object composition is the process of creating a composite object.
 
 An object formed from primitive and/or other composite objects.
 
+## Forms of Object Composition
+
+### Aggregation
+
+### Delegation
+
+### Concatenation
+
+
 ## Sources
 - [The Hidden Treasures of Object Composition](https://medium.com/javascript-scene/the-hidden-treasures-of-object-composition-60cd89480381)
