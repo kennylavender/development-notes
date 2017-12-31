@@ -18,6 +18,13 @@ When you form an object that is an enumerable collection of sub objects. Each su
 
 Arrays, Maps, Sets, Graphs, Trees, DOM nodes
 
+#### When to use
+
+When you want to apply opertions to a collection of objects.
+
+#### Considerations
+If memory is an issue because of thousands or millions of sub objects, consider using streams as they will be more memory effecient.
+
 
 ### Concatenation
 
@@ -27,6 +34,17 @@ Forming an object by adding new properties to an existing object.
 
 - jQuery.fn allows you to extend jQuery
 - adding properties via object.assign or the spread operator.
+
+#### When to use
+
+When you want to progressively build an object at runtime. Merging objects, creating update to immutable state.
+
+#### Considerations
+
+- Becareful mutating existing objects.
+- Avoid is-a relationships.
+- Avoid implicit dependencies
+- Key collisions, last in wins.
 
 
 ### Delegation
@@ -43,6 +61,16 @@ Creating instances from a 'master' object. If the master is updated all instance
 
 - Ivan Sutherlands Sketchpad ( 1962 )
 - Photoshop smart objects
+
+#### Considerations
+
+- Trading memory for computation to lookup delegates.
+- Need to define instance vs delegate state.
+- Shared state is not instance safe. Share state on dynamic delegates is commonly but not always a bug.
+- Avoid is-a relationships.
+- Key collisions, last in wins.
+- ES6 classes do no support dynamic delegates.
+- keys will not be enumerable by Object.keys
 
 
 ## Sources
