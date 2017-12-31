@@ -6,3 +6,7 @@ __Generalization:__ The process of extracting only the shared properties and beh
 
 __Specialization:__ The process of providing the implementation details required to server the special case.
 
+
+## Source
+
+- [The Hidden Treasures of Object Composition](https://medium.com/javascript-scene/the-hidden-treasures-of-object-composition-60cd89480381)
