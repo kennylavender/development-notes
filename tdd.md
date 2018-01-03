@@ -16,7 +16,7 @@ Test Driven Development highlights from Eric Elliot's [medium articles](#sources
 A failing test should read like a good bug report. That means that answers to the following questions should be obvious at a glance:
 
 - What component/unit/function/thing is being tested? ( describe )
-- What behavior of the component is being tested? (test setup / givens) ( should )
+- What behavior of the component is being tested? ( given, should )
 - What are the actual results?
 - What are the expected results?
 - How can actual results be reproduced?
