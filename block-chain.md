@@ -1,0 +1,3 @@
+- https://medium.com/@pauli/the-blockchain-primer-that-george-washington-would-understand-8cdb766edcbe
+- https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3
+- https://medium.com/loom-network/why-you-should-learn-to-build-blockchain-apps-be9a92e8d08e
