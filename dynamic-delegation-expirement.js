@@ -14,8 +14,8 @@ console.clear()
 console.log("\n", 'Setting prototype', "\n\n")
 
 {
-  // Class
-  console.log('Class')
+  // ES6 Class
+  console.log('ES6 Class')
   
   class Foo {
     constructor() {
@@ -32,11 +32,13 @@ console.log("\n", 'Setting prototype', "\n\n")
   Bar.prototype = { bar: 'new' }
 
   console.log(myBar, myBar.bar)
-  console.log("\n")
 }
+
+console.log("\n")
+
 {
-  // es5 contructor function
-  console.log('es5 Class')
+  // Constructor Function
+  console.log('Constructor Function')
   
   function Foo () {}
   Foo.prototype.bar = 'original'
@@ -51,12 +53,13 @@ console.log("\n", 'Setting prototype', "\n\n")
   Bar.prototype = { bar: 'new' }
 
   console.log(myBar, myBar.bar)
-  console.log("\n")
 }
 
+console.log("\n")
+
 {
-  // Object Delegeation
-  console.log('Object.create')
+  // Object Delegation
+  console.log('Object Delegation')
  
   const foo = { bar: 'original' }
   
@@ -72,12 +75,11 @@ console.log("\n", 'Setting prototype', "\n\n")
   console.log("\n")
 }
 
-
 console.log("\n Setting __proto__ \n\n")
 
 {
-  // Class
-  console.log('Class')
+  // ES6 Class
+  console.log('ES6 Class')
   
   class Foo {
     constructor() {
@@ -94,12 +96,13 @@ console.log("\n Setting __proto__ \n\n")
   Bar.__proto__ = { bar: 'new' }
 
   console.log(myBar, myBar.bar)
-  console.log("\n")
 }
 
+console.log("\n")
+
 {
-  // es5 contructor function
-  console.log('es5 Class')
+  // Constructor Function
+  console.log('Constructor Function')
   
   function Foo () {}
   Foo.prototype.bar = 'original'
@@ -114,12 +117,13 @@ console.log("\n Setting __proto__ \n\n")
   Bar.__proto__ = { bar: 'new' }
 
   console.log(myBar, myBar.bar)
-  console.log("\n")
 }
 
+console.log("\n")
+
 {
-  // Object Delegeation
-  console.log('Object.create')
+  // Object Delegation
+  console.log('Object Delegation')
  
   const foo = { bar: 'original' }
   
@@ -132,5 +136,6 @@ console.log("\n Setting __proto__ \n\n")
   bar.__proto__ = { bar: 'new' }
 
   console.log(myBar, myBar.bar)
-  console.log("\n")
 }
+
+console.log("\n")
