@@ -1,6 +1,7 @@
 /**
  Dynamic Delegation
- Proof that dynamic delgation does not work with es5 constructor functions or es6 classes. Not 100% sure I got constructor function delegation correct, there might be more too it.
+ Proof that dynamic delgation does not work with es5 constructor functions or es6 classes.
+ Not 100% sure I got constructor function delegation correct, there might be more too it.
  
  The only one that seems to work for dynamic delgation is object delegation and setting __proto__.
  
