@@ -3,6 +3,8 @@
  Proof that dynamic delgation does not work with es5 constructor functions or es6 classes.
  I might have issues around the es5 constructor functions, I have not used them in a long time.
  
+ The only one that seems to work for dynamic delgation is object delegation and setting __proto__.
+ 
  Directions:
  Copy this into the babel repl or save it to a file and run it with node.
 */
@@ -73,7 +75,7 @@ console.log("\n", 'Setting prototype', "\n\n")
 console.log("\n Setting __proto__ \n\n")
 
 {
-  // Class Dynamic Delgation Attempt
+  // Class
   console.log('Class')
   
   class Foo {
