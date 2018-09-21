@@ -1,6 +1,6 @@
 /**
  Dynamic Delegation
- Proof that dynamic delgation does not work with es5 constructor functions or es6 classes.
+ Proof that dynamic delgation does not work with es5 constructor functions or es6 classes. Not 100% sure I got constructor function delegation correct, there might be more too it.
  
  The only one that seems to work for dynamic delgation is object delegation and setting __proto__.
  
@@ -41,8 +41,7 @@ console.log("\n", 'Setting prototype', "\n\n")
   Foo.prototype.bar = 'original'
   
   function Bar () {}
-  Bar.prototype = Object.create(Foo.prototype);
-  Bar.prototype.constructor = Bar;
+  Bar.prototype = Foo.prototype
 
   const myBar = new Bar()
 
@@ -105,8 +104,7 @@ console.log("\n Setting __proto__ \n\n")
   Foo.prototype.bar = 'original'
   
   function Bar () {}
-  Bar.prototype = Object.create(Foo.prototype);
-  Bar.prototype.constructor = Bar;
+  Bar.prototype = Foo.prototype
 
   const myBar = new Bar()
 
