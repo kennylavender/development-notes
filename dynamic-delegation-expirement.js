@@ -57,6 +57,7 @@ console.log("\n", 'Setting prototype', "\n\n")
 {
   // Object Delegeation
   console.log('Object.create')
+ 
   const foo = { bar: 'original' }
   
   const bar = Object.create(foo)
@@ -119,6 +120,7 @@ console.log("\n Setting __proto__ \n\n")
 {
   // Object Delegeation
   console.log('Object.create')
+ 
   const foo = { bar: 'original' }
   
   const bar = Object.create(foo)
