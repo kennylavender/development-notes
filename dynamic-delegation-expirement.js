@@ -2,6 +2,9 @@
  Dynamic Delegation
  Proof that dynamic delgation does not work with es5 constructor functions or es6 classes.
  I might have issues around the es5 constructor functions, I have not used them in a long time.
+ 
+ Directions:
+ Copy this into the babel repl or save it to a file and run it with node.
 */
 
 console.clear()
