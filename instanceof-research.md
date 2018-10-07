@@ -26,6 +26,8 @@ if (baz instanceof Foo) {
 
 ```
 
+https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
+
 ```
 class User {
   constructor ({userName, avatar}) {
