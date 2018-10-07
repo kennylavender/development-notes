@@ -25,3 +25,24 @@ if (baz instanceof Foo) {
 // 2. To see if 2 or more objects are the same type ( have the same properties or methods )
 
 ```
+
+```
+class User {
+  constructor ({userName, avatar}) {
+    this.userName = userName;
+    this.avatar = avatar;
+  }
+}
+
+const currentUser = new User({
+  userName: 'Foo',
+  avatar: 'foo.png'
+});
+User.prototype = {};
+console.log(
+  currentUser instanceof User, // <-- false -- Oops!
+// But it clearly has the correct shape:
+  // { avatar: "foo.png", userName: "Foo" }
+  currentUser
+);
+```
